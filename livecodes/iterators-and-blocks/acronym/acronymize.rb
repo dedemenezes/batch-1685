@@ -1,13 +1,13 @@
 def acronymize(string)
-  # fazer um split retornar 3 string
-  # com essas strings da pra fazer um map
+  # separate string into words
+  # interate and transform each word
   first_letters = string.split.map do |word|
-    # Pega o primeiro elemento de cada string
+    # access first char of each string
     word[0].upcase
   end
   first_letters.join
-  # Gera uma nova string com esses elementos em maiúsculo
+  # return new upcase string
 end
-# Chamar o método e comparar com resultado correto
+# call method and compare the result
 puts acronymize("") == ""
 puts acronymize('Away fRom KeYbOaRd') == "AFK"
