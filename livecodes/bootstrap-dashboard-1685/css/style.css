@@ -1,0 +1,7 @@
+.nav-height {
+  height: 64px;
+}
+
+#sidebar {
+  height: calc(100vh - 64px)
+}
