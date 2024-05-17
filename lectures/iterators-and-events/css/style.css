@@ -23,3 +23,7 @@ h1, h2, h3 {
 .green {
   color: green;
 }
+
+.img-circle {
+  border-radius: 50%;
+}
